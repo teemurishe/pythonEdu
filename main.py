@@ -13,7 +13,7 @@ while True:
     if in_put.lower() == 'aboba':
         print('Why not amogus?..')
     if in_put.lower() == 'msg':
-        print('нет блин звоное')
+        print('нет блин звонок')
     if in_put.lower() == 'text':
         print('picture:')
         print('                     ,,,,,,,,')
