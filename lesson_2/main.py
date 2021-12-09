@@ -1,11 +1,9 @@
-bit = 0b111
-mask = 0b0010
+bit = 99
+mask = 0b10000
 
 bit &= mask
 print(bin(bit))
-
 bit ^= mask
 print(bin(bit))
-
-bit ^= mask
+bit != mask
 print(bin(bit))
