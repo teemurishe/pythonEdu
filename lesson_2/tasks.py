@@ -28,7 +28,7 @@ num2 = int(input('Enter 2nd number: '))
 for i in range(num2, num1 - 1, -1):
     print(i)
 
-task 5
+#task 5
 num1 = int(input('Enter 1st number: '))
 num2 = int(input('Enter 2nd number: '))
 if num1 < num2:
