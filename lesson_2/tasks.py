@@ -58,11 +58,18 @@
 
 # print(num3)
 
-#task 7
-num = int(input('Enter any positive number: '))
-fact = 1
+# #task 7
+# num = int(input('Enter any positive number: '))
+# fact = 1
 
-for i in range(1, num + 1):
-    fact *= i
+# if num > 0:
+#     for i in range(1, num + 1):
+#         fact *= i
+# else:
+#     print('Only positive numbers allowed!')
 
-print(fact)
+# print(fact)
+
+#task 8
+num = int(input('Enter length of star line: '))
+print(num * '*')
