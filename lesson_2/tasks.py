@@ -51,7 +51,6 @@ def dIntInput():
 #             break
 
 #task 6
-#Пользователь вводит с клавиатуры два числа. Нужно посчитать сумму чисел в указанном диапазоне, а также среднеарифметическое.
 num1 = int(input('Enter 1st number: '))
 num2 = int(input('Enter 2nd number: '))
 num3 = 0
