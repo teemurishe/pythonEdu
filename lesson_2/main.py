@@ -1,9 +1,5 @@
-bit = 99
-mask = 0b10000
+def makeHappy():
+    while True:
+        print('Be happy and smile!')
 
-bit &= mask
-print(bin(bit))
-bit ^= mask
-print(bin(bit))
-bit != mask
-print(bin(bit))
+makeHappy()
