@@ -1,14 +1,27 @@
-#task 1
-num1 = int(input('Enter 1st number: '))
-num2 = int(input('Enter 2nd number: '))
+bit = 0b111
+mask = 0b0010
 
-for i in range(num1, num2 + 1):
-    print(i)
+bit &= mask
+print(bin(bit))
 
-#task 2
-num1 = int(input('Enter 1st number: '))
-num2 = int(input('Enter 2nd number: '))
+bit ^= mask
+print(bin(bit))
 
-for i in range(num1, num2 + 1):
-    if (i % 2 != 0):
-        print(i)
+bit ^= mask
+print(bin(bit))
+
+bit = 99
+mask = 0b10000
+
+bit &= mask
+print(bin(bit))
+bit ^= mask
+print(bin(bit))
+bit != mask
+print(bin(bit))
+
+def makeHappy():
+    while True:
+        print('Be happy and smile!')
+
+makeHappy()
