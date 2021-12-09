@@ -1,5 +1,5 @@
-def makeHappy():
-    while True:
-        print('Be happy and smile!')
+num1 = int(input('Enter 1st number: '))
+num2 = int(input('Enter 2nd number: '))
 
-makeHappy()
+for i in range(num1, num2 + 1):
+    print(i)
