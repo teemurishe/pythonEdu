@@ -73,3 +73,8 @@
 #task 8
 num = int(input('Enter length of star line: '))
 print(num * '*')
+
+#task 9
+num = int(input('Enter length of your line: '))
+sym = input('Enter symbol of line: ')
+print(num * sym)
