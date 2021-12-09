@@ -49,3 +49,16 @@ def dIntInput():
 #     else:
 #         while True:
 #             break
+
+#task 6
+#Пользователь вводит с клавиатуры два числа. Нужно посчитать сумму чисел в указанном диапазоне, а также среднеарифметическое.
+num1 = int(input('Enter 1st number: '))
+num2 = int(input('Enter 2nd number: '))
+num3 = 0
+
+print((num1 + num2) / 2)
+print()
+for i in range(num1, num2 + 1):
+    num3 += i
+
+print(num3)
