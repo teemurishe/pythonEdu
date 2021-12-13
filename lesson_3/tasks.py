@@ -44,43 +44,60 @@
 # print(num, '* 9', '=', num * 9)
 # print(num, '* 10', '=', num * 10)
 
-dollar = 73.46
-euro = 82.96
-bitcoin = 3518017.30
+# dollar = 73.46
+# euro = 82.96
+# bitcoin = 3518017.30
+
+# while True:
+#     convert = int(input('Choose operation:\n1 - Convert USD-RUB\n2 - Convert EUR-RUB\n3 - Convert BTC-RUB\n'))
+
+#     if convert == 1:
+#         raw_value = int(input('Choose your value:\n1 - USD\n2 - RUB\n'))
+#         if raw_value == 1:
+#             value = int(input('Enter your sum: '))
+#             print(value * dollar)
+#         elif raw_value == 2:
+#             value = int(input('Enter your sum: '))
+#             print(value / dollar)
+#         else:
+#             print('Incorrect value chosen. Try again.')
+#     elif convert == 2:
+#         raw_value = int(input('Choose your value:\n1 - EUR\n2 - RUB\n'))
+#         if raw_value == 1:
+#             value = int(input('Enter your sum: '))
+#             print(value * euro)
+#         elif raw_value == 2:
+#             value = int(input('Enter your sum: '))
+#             print(value / euro)
+#         else:
+#             print('Incorrect value chosen. Try again.')
+#     elif convert == 3:
+#         raw_value = int(input('Choose your value:\n1 - BTC\n2 - RUB\n'))
+#         if raw_value == 1:
+#             value = int(input('Enter your sum: '))
+#             print(value * bitcoin)
+#         elif raw_value == 2:
+#             value = int(input('Enter your sum: '))
+#             print(value / bitcoin)
+#         else:
+#             print('Incorrect value chosen. Try again.')
+    
+#     else:
+#         print('Incorrect value chosen. Try again.')
+
+#task 3
+border1 = int(input('Enter 1st number: '))
+border2 = int(input('Enter 2nd number: '))
 
 while True:
-    convert = int(input('Choose operation:\n1 - Convert USD-RUB\n2 - Convert EUR-RUB\n3 - Convert BTC-RUB\n'))
+    num = int(input('Enter any number: '))
 
-    if convert == 1:
-        raw_value = int(input('Choose your value:\n1 - USD\n2 - RUB\n'))
-        if raw_value == 1:
-            value = int(input('Enter your sum: '))
-            print(value * dollar)
-        elif raw_value == 2:
-            value = int(input('Enter your sum: '))
-            print(value / dollar)
-        else:
-            print('Incorrect value chosen. Try again.')
-    elif convert == 2:
-        raw_value = int(input('Choose your value:\n1 - EUR\n2 - RUB\n'))
-        if raw_value == 1:
-            value = int(input('Enter your sum: '))
-            print(value * euro)
-        elif raw_value == 2:
-            value = int(input('Enter your sum: '))
-            print(value / euro)
-        else:
-            print('Incorrect value chosen. Try again.')
-    elif convert == 3:
-        raw_value = int(input('Choose your value:\n1 - BTC\n2 - RUB\n'))
-        if raw_value == 1:
-            value = int(input('Enter your sum: '))
-            print(value * bitcoin)
-        elif raw_value == 2:
-            value = int(input('Enter your sum: '))
-            print(value / bitcoin)
-        else:
-            print('Incorrect value chosen. Try again.')
-    
+    list = []
+    if (num > border1) and (num < border2):
+        for i in range(border1, border2 + 1):
+            list.append(i)
+            if num == i:
+                list[list.index(i)] = '!' + str(list[list.index(i)]) + '!'
+        print(list)
     else:
-        print('Incorrect value chosen. Try again.')
+        print('Number is not between the borders')
