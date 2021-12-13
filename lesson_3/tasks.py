@@ -21,3 +21,7 @@ else:
     print('Only positive numbers allowed!')
 
 print(fact)
+
+#task 3
+num = int(input('Enter length of star line: '))
+print(num * '*')
