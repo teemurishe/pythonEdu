@@ -35,8 +35,6 @@ else:
         print(num * num * num * num * num * num * num)
 
 #task 3
-#Написать программу подсчета стоимости разговора для разных мобильных операторов. Пользователь вводит
-#стоимость разговора и выбирает с какого на какой оператор он звонит. Вывести стоимость на экран.
 time = int(input('Enter please time of your talk (in minutes): ')) #didn't understand the task: enter cost, choose operators and print cost
 #probably, time of dialogue was ment in first input
 oper_out = input('Choose your operator (AbobaMobile, DungeonCom): ')

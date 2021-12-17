@@ -26,8 +26,19 @@
 # print('Average of uneven numbers: ', unEvenSum / unEvenNum)
 # print('Average of numbers divideable 9 numbers: ', divNineSum / divNineNum)
 
-#task 2
-length = int(input('Enter length of your line: '))
-sym = input('Enter the symbol to fill your line: ')
-for i in range(1, length + 1):
-    print(sym)
+# #task 2
+# length = int(input('Enter length of your line: '))
+# sym = input('Enter the symbol to fill your line: ')
+# for i in range(1, length + 1):
+#     print(sym)
+
+#task 3
+num = int(input('Enter any number: '))
+if num == 7:
+    print('Goodbye!')
+elif num < 0:
+    print('Number is negative')
+elif num == 0:
+    print('Number is equal to zero')
+elif num < 0:
+    print('Number is positive')
