@@ -32,13 +32,33 @@
 # for i in range(1, length + 1):
 #     print(sym)
 
-#task 3
-num = int(input('Enter any number: '))
-if num == 7:
-    print('Goodbye!')
-elif num < 0:
-    print('Number is negative')
-elif num == 0:
-    print('Number is equal to zero')
-elif num < 0:
-    print('Number is positive')
+# #task 3
+# num = int(input('Enter any number: '))
+# if num == 7:
+#     print('Goodbye!')
+# elif num < 0:
+#     print('Number is negative')
+# elif num == 0:
+#     print('Number is equal to zero')
+# elif num < 0:
+#     print('Number is positive')
+
+#task 4
+while True:
+    num1 = int(input('Enter first number: '))
+    num2 = int(input('Enter second number: '))
+
+    if (num1 == 7) or (num2 == 7):
+        print('Goodbye!')
+        break
+
+    else:
+        print('The sum of numbers: ', num1 + num2)
+
+        if num1 > num2:
+            print('The maximum number: ', num1)
+            print('The minimum number: ', num2)
+        
+        elif num2 > num1:
+            print('The maximum number: ', num2)
+            print('The minimum number: ', num1)
