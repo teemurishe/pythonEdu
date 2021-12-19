@@ -14,5 +14,10 @@ for i in range(100, 999):
 print(numSame)
 
 #task 3
-#Подсчитать количество целых чисел в диапазоне от 100 до 9999 у которых все цифры разные.
 print((9 * 9 * 8) + (9 * 9 * 8 * 7))
+
+#task 4
+num = input('Enter any number: ')
+num = num.replace('3', '')
+num = num.replace('6', '')
+print(num)
