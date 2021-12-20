@@ -19,12 +19,39 @@
 #                 sumZero += 1
 #         print(sumZero)
 
-#task 2
-length = int(input('Enter length of a square for chess: '))
-square0 = '\u25a1'
-square1 = '\u25a0'
-for i in range(4):
-    for i in range(length):
-        print(square1 * length, square0 * length, square1 * length, square0 * length, square1 * length, square0 * length, square1 * length, square0 * length)
-    for i in range(length):
-        print(square0 * length, square1 * length, square0 * length, square1 * length, square0 * length, square1 * length, square0 * length, square1 * length)
+# #task 2
+# length = int(input('Enter length of a square for chess: '))
+# square0 = '\u25a1'
+# square1 = '\u25a0'
+# for i in range(4):
+#     for i in range(length):
+#         print(square1 * length, square0 * length, square1 * length, square0 * length, square1 * length, square0 * length, square1 * length, square0 * length)
+#     for i in range(length):
+#         print(square0 * length, square1 * length, square0 * length, square1 * length, square0 * length, square1 * length, square0 * length, square1 * length)
+
+#task 3
+print('            ◊            ')
+print('           ◊◊◊')
+print('          ◊◊◊◊◊')
+print('         ◊◊◊◊◊◊◊')
+print('        ◊◊◊◊◊◊◊◊◊')
+print('       ◊◊◊◊◊◊◊◊◊◊◊')
+print('      ◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('     ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('    ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('   ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('  ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print(' ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print(' ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('  ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('   ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('    ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('     ◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('      ◊◊◊◊◊◊◊◊◊◊◊◊◊')
+print('       ◊◊◊◊◊◊◊◊◊◊◊')
+print('        ◊◊◊◊◊◊◊◊◊')
+print('         ◊◊◊◊◊◊◊')
+print('          ◊◊◊◊◊')
+print('           ◊◊◊')
+print('            ◊')
