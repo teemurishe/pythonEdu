@@ -4,6 +4,6 @@
 phrase = input('Enter any phrase: ')
 noSpaces = phrase.replace(' ', '')
 if noSpaces == noSpaces[::-1]:
-    print('aboba')
+    print('The phrase is palindrome')
 else:
-    print('fisting')
+    print('The phrase isn\'t palindrome')
