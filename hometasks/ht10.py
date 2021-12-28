@@ -21,8 +21,18 @@ for i in range(lengthList):
         listAllUniq.append(elem1)
     if elem2 != elem1:
         listAllUniq.append(elem2)
+
 listAll.append(list1)
 listAll.append(list2)
+
+if min(list1) < min(list2):
+    listAllMinMax.append(min(list1))
+elif min(list2) < min(list1):
+    listAllMinMax.append(min(list2))
+if max(list1) > max(list2):
+    listAllMinMax.append(max(list1))
+elif max(list2) > max(list1):
+    listAllMinMax.append(min(list2))
 
 print(list1)
 print(list2)
