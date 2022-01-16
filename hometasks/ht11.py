@@ -1,6 +1,6 @@
 import random as rand
 # task 1
-# print(eval(input('Enter your operation: '))) #AAAHAHAHAHHAHAHAHAHAHHA
+print(eval(input('Enter your operation: '))) #AAAHAHAHAHHAHAHAHAHAHHA
 
 #task 2
 randList = []
