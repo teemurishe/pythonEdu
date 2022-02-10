@@ -34,3 +34,34 @@ while command != 'stop':
 print('That\'s what you love most of all:')
 for i in lovely:
     print(i)
+
+#part 2
+
+#task 1
+list_1 = (0, 2, 4, 6, 8, 10, 12, 14, 16, 18)
+list_2 = (1, 3, 5, 7, 9, 11, 13, 15, 17, 19)
+list_3 = list(list_1 + list_2)
+
+#task 2
+list_3.sort()
+
+#task 3
+num = int(input('Enter any number: '))
+if num % 15 == 0:
+    print('Divisible by 15')
+elif num % 3 == 0:
+    print('Divisible by 3')
+else:
+    print('Divisible by 1')
+
+#task 4
+set_1 = {1,2,3,4}
+set_2 = {3,4,5,6}
+print(set_1.intersection(set_2))
+
+#task 5
+string = input('Enter anything: ')
+if string == string[::-1]:
+    print('Palindrome confirmed!')
+else:
+    print('It\'s just another word... I\'m so tired...')
