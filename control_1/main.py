@@ -1,3 +1,4 @@
+from random import randint as rint
 #part 1
 
 #task 1
@@ -65,3 +66,23 @@ if string == string[::-1]:
     print('Palindrome confirmed!')
 else:
     print('It\'s just another word... I\'m so tired...')
+
+#part 3
+
+#task 1
+def numList(num1, num2):
+    list_ = []
+    list_.append(num1)
+    list_.append(num2)
+    print(list_)
+numList(5, 8)
+
+#task 2
+def randList():
+    list_ = []
+    len = rint(1, 100)
+    for i in range(1, len):
+        list_.append(rint(-100, 100))
+    list_.sort()
+    print(list_)
+randList()
